@@ -1,0 +1,35 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	Twig: {
+		DisplayName: Twig
+		Tooltip: Just an ordinary twig...
+	}
+
+	Twig_Ash: {
+		DisplayName: Smoldering Twig
+		Tooltip: A pretty spicy twig!
+	}
+
+	Twig_Corruption: {
+		DisplayName: Blighted Twig
+		Tooltip: You might get some unwanted diseases from this twig...
+	}
+
+	Twig_Crimson: {
+		DisplayName: Bloody Twig
+		Tooltip: Just your average twig with...blood vessels?
+	}
+
+	Twig_Hallow: {
+		DisplayName: Fairy Twig
+		Tooltip: A wonderfully sparkly twig.
+	}
+}
+
+Buffs: {
+	NiceStick: {
+		DisplayName: Nice Stick
+		Description: You found a really nice stick
+	}
+}

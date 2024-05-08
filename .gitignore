@@ -1,0 +1,7 @@
+#Env Files.
+/bin
+/obj
+/properties
+
+TwigMod.csproj
+TwigMod.sln
