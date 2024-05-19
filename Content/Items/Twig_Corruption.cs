@@ -19,7 +19,7 @@ namespace TwigMod.Content.Items
             Item.axe = 84;
 
             //Visual properties.
-            Item.width = 29;
+            Item.width = 32;
             Item.height = 30;
             Item.scale = 1.72f;
 

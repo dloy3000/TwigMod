@@ -20,7 +20,7 @@ namespace TwigMod.Content.Items
 
             //Visual properties.
             Item.width = 29;
-            Item.height = 30;
+            Item.height = 34;
             Item.scale = 1.72f;
 
             Item.useTime = 1;
@@ -37,7 +37,8 @@ namespace TwigMod.Content.Items
 
             Item.shoot = ProjectileID.HallowStar;
             Item.shootSpeed = 12f;
-
+            Item.noMelee = false;
+            Item.channel = true;
         }
 
         public override void HoldItem(Player player)

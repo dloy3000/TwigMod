@@ -2,6 +2,7 @@ using TwigMod.Content.Buffs;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using TwigMod.Content.Projectiles;
 
 namespace TwigMod.Content.Items
 {
@@ -19,7 +20,7 @@ namespace TwigMod.Content.Items
             Item.axe = 84;
 
             //Visual properties.
-            Item.width = 29;
+            Item.width = 30;
             Item.height = 30;
             Item.scale = 1.72f;
 
@@ -35,8 +36,10 @@ namespace TwigMod.Content.Items
             Item.rare = ItemRarityID.Purple;
             Item.UseSound = SoundID.Item1;
 
-            Item.shoot = ProjectileID.BallofFire;
-            Item.shootSpeed = 4.1f;
+            Item.shoot = ModContent.ProjectileType<Ash_Pollen>();
+            Item.shootSpeed = 2.1f;
+            Item.noMelee = false;
+            Item.channel = true;
         }
 
         public override void HoldItem(Player player)
