@@ -38,7 +38,7 @@ namespace TwigMod
                 Random rand = new Random();
                 int next = rand.Next(99999);
 
-                if (next <= 100)
+                if (next == 74500) //Combined with the acorn drop chance, should be somewhere around 1 in 714,000 chance.
                 {
                     int soilX, soilY;
                     WorldGen.GetTreeBottom(x, y, out soilX, out soilY);
