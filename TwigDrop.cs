@@ -1,7 +1,10 @@
+using System;
 using Microsoft.Xna.Framework;
 using Terraria;
+using Terraria.Chat;
 using Terraria.DataStructures;
 using Terraria.Enums;
+using Terraria.Localization;
 using Terraria.ModLoader;
 using TwigMod.Content.Items;
 
@@ -32,7 +35,10 @@ namespace TwigMod
         {
             if (source is EntitySource_ShakeTree && source.Context != "shakedStick")
             {
-                if (Main.rand.NextBool(999999)) //1 in 1 million chance.
+                Random rand = new Random();
+                int next = rand.Next(99999);
+
+                if (next <= 100) //1 in 1 million chance.
                 {
                     int soilX, soilY;
                     WorldGen.GetTreeBottom(x, y, out soilX, out soilY);
