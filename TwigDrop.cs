@@ -38,7 +38,7 @@ namespace TwigMod
                 Random rand = new Random();
                 int next = rand.Next(99999);
 
-                if (next <= 100) //1 in 1 million chance.
+                if (next <= 100)
                 {
                     int soilX, soilY;
                     WorldGen.GetTreeBottom(x, y, out soilX, out soilY);
